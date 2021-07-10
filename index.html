@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Belly button Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 style="color: white;">Belly Button Biodiversity Dashboard</h1>
+        <p style= "font-family:Arial, Helvetica, sans-serif; color: white;">Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class= "col-md-12">
+      <p style="font-family:Arial, Helvetica, sans-serif;
+       font-size:large;"> This dashboard allows us to visualize and manipulate data pertaining the various bacterial species living inside the navels of our volunteers. 
+       We can select any of the subject IDs to view which bacterial cultures are more prevalent and to what species it belongs.
+      </p>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well" style="background-color:rgb(118, 240, 164);">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+        <p class="col-md-10" style="background-color:rgb(123, 165, 221);
+         font-family: Arial, Helvetica, sans-serif;font-style: italic;">Fig 1. Frequency of top 10 bacterial species (OTUs) found.</p>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+        <p class="col-md-12" style="background-color:rgb(123, 165, 221);
+        font-family: Arial, Helvetica, sans-serif; font-style: italic;">Fig 2. Number of times the subject ID washes their belly button in a week. </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+        <p class="col-md-4" style="background-color:rgb(123, 165, 221);
+        font-family: Arial, Helvetica, sans-serif; font-style: italic; position:absolute">Fig 3. This chart displays all the OTUs 
+        on the x axis with the number of sample values recorded for each. Bubble size has direct relationship with sample size. </p>
+      </div>
+    </div>
+    </div>
+     
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>
