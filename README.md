@@ -1,6 +1,6 @@
 
 ## Overview
-The purpose of this challenge was to create a dynamic dashboard that allows us to visualize data collected pertaining the bacterial species found in the navels of our volunteers. With our dropdown menu, we can view each subject IDs information along with the type of bacteria living in their navel. We can view the frequency of each bacterial sample collected with our horizontal bar chart and bubble chart. 
+In this project, an interactive dashboard was completed to visualize bacterial data from volunteers, specifically focusing on identifying the top 10 bacterial species found in belly buttons. Four technical deliverables were created using JavaScript, Plotly, and D3.js: a horizontal bar chart to display the top species, a bubble chart to visualize sample values, and a gauge chart for weekly washing frequency. The final deliverable involved customizing the dashboard for improved aesthetics and usability. Each chart updates based on user-selected IDs from a dropdown menu, providing valuable insights into the bacterial composition relevant to synthetic beef production.
 
 link to Interactive dashboard: https://dianahandler.github.io/Bacterial-Species-Interactive-Dashboard/
 
