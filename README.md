@@ -144,3 +144,15 @@ Plotting the Chart:
 
 
 link to Interactive dashboard: https://dianahandler.github.io/Bacterial-Species-Interactive-Dashboard/
+
+
+
+
+
+
+Designed and deployed a user-friendly PowerApp to serve as the primary interface for data input, enhancing data entry efficiency and user experience. The app is integrated with SharePoint for streamlined data management
+• Leverage Microsoft Power Automate to migrate CSV data into SharePoint lists, ensuring real-time updates and seamless data synchronization with the PowerApp
+• Design and implement end-to-end data pipelines connecting Databricks and Qlik. These pipelines are primarily built with Python and Apache Spark in Databricks to perform ETL and EDA processes on raw data, which are then integrated into Qlik for advanced, interactive data visualization
+• Create multiple interactive data visualization dashboards using Qlik, connecting them to cleaned datasets from Databricks to provide actionable insights and enhance decision-making capabilities.
+• Lead many high-level meetings with Navy senior officials to demonstrate the integrated data pipelines and interactive dashboards and applications. Effectively communicate technical concepts and project outcomes, resulting in successful project adoption and positive client feedback
+• Presented a comprehensive overview of this work during a major Navy symposium and demonstrated key projects and solutions, successfully engaging with numerous potential clients and showcasing the firm’s expertise and value proposition
